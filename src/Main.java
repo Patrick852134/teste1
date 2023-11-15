@@ -6,11 +6,11 @@ public class Main {
 
         cachorro cachorro1 = new cachorro();
 
-        cachorro1.nome = "Richas";
-        cachorro1.cor = "marrom";
-        cachorro1.altura = 22;
-        cachorro1.peso = 5.55;
-        cachorro1.temanhoDoRabo = 5;
+        cachorro1.setNome("Richas");
+        cachorro1.setCor("marrom");
+        cachorro1.setAltura(22);
+        cachorro1.setPeso(5.55);
+        cachorro1.setTemanhoDoRabo(5);
 
         System.out.println("O Cachorro Esta " + cachorro1.interagir("vai dormir"));
         System.out.println("O Cachorro Esta " + cachorro1.interagir("carinho"));
